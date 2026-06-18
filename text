@@ -4,8 +4,36 @@ cd ...
 install python pip 
 install python venv
 python3 -m venv .venv
+source .venv/bin/activate
 pip install flask
 create a py file
 mkdir templates
 cd templates
 create a html file
+
+
+
+
+ON A VM 
+
+setup nginx
+sudo apt update 
+sudo apt install nginx -y
+
+
+
+git clone https://github.com/Derankatinum/Bird1.git
+cd Bird1
+sudo apt update
+sudo apt install python3-venv -y
+python3 -m venv .venv
+source .venv/bin/activate
+pip install flask
+chmod +x /home/dir/Bird1
+chmod +x /home/dir/Bird1/static
+
+
+
+
+python3 hello.py
+(this is just to run python flask app)
