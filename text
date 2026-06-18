@@ -1,0 +1,11 @@
+
+mkdir ...
+cd ...
+install python pip 
+install python venv
+python3 -m venv .venv
+pip install flask
+create a py file
+mkdir templates
+cd templates
+create a html file
